@@ -12,7 +12,7 @@ export default function Home() {
 
 				<div style={{ zIndex: 2, flexDirection: "column" }} className="absolute flex w-full h-full justify-center items-center container mx-auto left-0 right-0">
 					<h5 style={{ fontWeight: 400 }} className="text-white mb-3">
-						UI / UX Designer
+						UI / UX Designer 123.
 					</h5>
 
 					<p style={{ fontSize: "18px", maxWidth: "650PX" }} className="mx-auto text-white text-center">
