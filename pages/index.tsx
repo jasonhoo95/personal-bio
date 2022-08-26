@@ -10,6 +10,7 @@ import CounterAnimation from "../components/counterAnimation";
 import TypeWriterEffect from "../components/typeWriterEffect";
 import About from "../components/about";
 import Footer from "../components/footer";
+import Contact from "../components/contact";
 const PortfolioComponent = dynamic(() => import("../components/portfolioComponent"), { ssr: false });
 
 export default function Home() {
@@ -39,47 +40,18 @@ export default function Home() {
 
 			<section className="scrollspy" id="about" style={{ paddingTop: "90px", paddingBottom: "90px" }}>
 				<div style={{ maxWidth: "1100px" }} className="mx-auto text-center">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/account-settings.svg" />
-							</div>
-							<h3>About me</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
 					<About />
 				</div>
 			</section>
 
 			<section id="services" className="scrollspy" style={{ paddingTop: "90px", backgroundColor: "#f8f9fa!important", paddingBottom: "90px" }}>
 				<div style={{ maxWidth: "1100px" }} className="text-center mx-auto">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/account-settings.svg" />
-							</div>
-							<h3>My Services</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
-
 					<Services />
 				</div>
 			</section>
 
 			<section id="portfolio" className="scrollspy" style={{ paddingTop: "90px", paddingBottom: "90px" }}>
 				<div style={{ maxWidth: "1100px" }} className="text-center mx-auto">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/portfolio.svg" />
-							</div>
-							<h3>My Portfolio</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
-
 					<PortfolioComponent />
 				</div>
 			</section>
@@ -91,103 +63,19 @@ export default function Home() {
 
 			<section id="testimonial" className="bg-[#f8f9fa] scrollspy" style={{ paddingTop: "90px", paddingBottom: "90px" }}>
 				<div style={{ maxWidth: "1100px" }} className="mx-auto text-center">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/customer-testimonial.svg" />
-							</div>
-							<h3>What People Say</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
-
 					<Testimonial />
 				</div>
 			</section>
 
 			<section id="blog" className="scrollspy" style={{ paddingTop: "90px", paddingBottom: "90px" }}>
 				<div style={{ maxWidth: "1100px" }} className="mx-auto text-center">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/news.svg" />
-							</div>
-							<h3>Latest News</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
-
 					<News />
 				</div>
 			</section>
 
 			<section id="contact" className="scrollspy" style={{ paddingTop: "90px", paddingBottom: "90px", background: "#242a35" }}>
 				<div style={{ maxWidth: "1100px" }} className="mx-auto text-center">
-					<div className="mb-6 pb-2 mx-auto justify-center w-1/2">
-						<div className="section-title mb-6 pb-2 relative">
-							<div className="mb-12">
-								<img className="mx-auto" style={{ width: "2.5rem" }} src="/headphone.svg" />
-							</div>
-							<h3 className="text-white">Contact Me</h3>
-							<p className="text-muted mx-auto mb-0 para-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry</p>
-						</div>
-					</div>
-
-					<div className="flex flex-wrap">
-						<div className="md:w-1/3 w-full p-4">
-							<div className="flex flex-col items-center">
-								<div className="mb-4">
-									<img style={{ width: "1.75rem" }} src="/map-marker.svg" />
-								</div>
-								<div style={{ color: "#cacaca" }}>1271 Gladwell Street Longview, TX 75601</div>
-							</div>
-						</div>
-						<div className="md:w-1/3 w-full p-4">
-							<div className="flex flex-col items-center">
-								<div className="mb-4">
-									<img style={{ width: "1.75rem" }} src="/telephone.svg" />
-								</div>
-								<div style={{ color: "#cacaca" }}>
-									562-481-5340
-									<br />
-									562-481-5340
-								</div>
-							</div>
-						</div>
-						<div className="md:w-1/3 w-full p-4">
-							<div className="flex flex-col items-center">
-								<div className="mb-4">
-									<img style={{ width: "1.75rem" }} src="/email.svg" />
-								</div>
-								<div style={{ color: "#cacaca" }}>
-									example@abc.com
-									<br />
-									example@abc.com
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<form>
-						<div className="flex mt-12 flex-wrap">
-							<div className="md:w-1/2 px-4 w-full mb-6">
-								<input className="form-control w-full" type="text" name="name" placeholder="Your Name..." />
-							</div>
-							<div className="md:w-1/2 px-4 w-full mb-6">
-								<input className="form-control w-full" type="email" name="email" placeholder="Your Email..." />
-							</div>
-						</div>
-						<div className="flex">
-							<div className="px-4 w-full mb-6">
-								<input className="form-control w-full" type="text" name="name" placeholder="Your Subject..." />
-							</div>
-						</div>
-						<div className="flex">
-							<div className="px-4 w-full  mb-6">
-								<textarea style={{ height: "100% !important" }} className="form-control w-full" rows={4} name="comments" placeholder="Your Message..." />
-							</div>
-						</div>
-					</form>
+					<Contact />
 				</div>
 			</section>
 			<Footer />

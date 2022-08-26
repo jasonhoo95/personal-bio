@@ -64,6 +64,42 @@ export const ExperiencesJSON = [
 	{ title: "Back End Developer", subtitle: "Titanium Navigations, 2017 - Continue" },
 ];
 
+export const AboutMainJSON = {
+	title: "HELLO WORLD",
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<img class="mx-auto" style="width:2.5rem" src="/account-settings.svg" />`,
+};
+
+export const ServicesMainJSON = {
+	title: "Services",
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<img class="mx-auto" style="width:2.5rem" src="/account-settings.svg" />`,
+};
+
+export const PortfolioMainJSON = {
+	title: "Portfolio",
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<img class="mx-auto" style="width:2.5rem" src="/portfolio.svg" />`,
+};
+
+export const NewsMainJSON = {
+	title: "News",
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<i style="font-size:2.5rem" class="fa fa-newspaper-o" aria-hidden="true"></i> `,
+};
+
+export const TestimonialMainJSON = {
+	title: "Testimonial",
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<img class="mx-auto" style="width:2.5rem" src="/customer-testimonial.svg" />`,
+};
+
+export const ContactMainJSON = {
+	title: `<span class="text-white">Contact Us</span>`,
+	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
+	image: `<i style="font-size:2.5rem;color:#cacaca" class="fa fa-headphones" aria-hidden="true"></i> `,
+};
+
 export const EducationJSON = [
 	{ title: "APU", subtitle: "Titanium Navigations, 2017 - Continue" },
 	{ title: "Chong HWA KL", subtitle: "Titanium Navigations, 2017 - Continue" },

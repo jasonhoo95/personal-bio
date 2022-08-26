@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import Isotope from "isotope-layout";
 import $ from "jquery";
 import "magnific-popup";
-import { PortfolioJSON, PortfolioFilterJSON } from "./editData";
+import { PortfolioJSON, PortfolioFilterJSON, PortfolioMainJSON } from "./editData";
 import { Portfolio, PortfolioFilter } from "../interface/data";
+import MainTitleComponent from "./mainTitle";
 var imagesLoaded = require("imagesloaded");
 export default function PortfolioComponent() {
 	const [filter, setFilter] = useState<PortfolioFilter[]>(PortfolioFilterJSON);
@@ -61,6 +62,8 @@ export default function PortfolioComponent() {
 	};
 	return (
 		<div>
+			<MainTitleComponent {...PortfolioMainJSON} />
+
 			<div className="flex mt-4 pt-2 container-filter justify-center flex-wrap">
 				{filter.map((o, key) => {
 					return (

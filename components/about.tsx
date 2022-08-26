@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Skill, Home, Resume } from "../interface/about";
-import { AboutSkillJSON, AboutHomeJSON, ExperiencesJSON, EducationJSON } from "./editData";
+import MainTitleComponent from "./mainTitle";
+import { AboutSkillJSON, AboutMainJSON, AboutHomeJSON, ExperiencesJSON, EducationJSON } from "./editData";
 export default function About() {
 	const [skills, setSkill] = useState<Skill[]>(AboutSkillJSON);
 	const [home, setHome] = useState<Home>(AboutHomeJSON);
@@ -9,6 +10,7 @@ export default function About() {
 
 	return (
 		<div>
+			<MainTitleComponent {...AboutMainJSON} />
 			<div className="mt-5 pt-2" style={{ padding: "0px 15px" }}>
 				<ul className="nav nav-tabs flex" id="tabs-tab">
 					<li className="nav-item" role="presentation">
