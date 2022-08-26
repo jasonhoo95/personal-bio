@@ -17,9 +17,7 @@ export default function ServicesComponent() {
 									<h5 className="mb-3">{o.title}</h5>
 									<p className="text-muted mb-0">{o.subTitle}</p>
 								</div>
-								<div className="back p-12 flex justify-center items-center">
-									<img style={{ width: "6rem" }} src="/colors-pallete.svg" />
-								</div>
+								<div dangerouslySetInnerHTML={{ __html: o.image }} className="back p-12 flex justify-center items-center"></div>
 							</div>
 						</div>
 					);

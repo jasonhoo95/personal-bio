@@ -1,11 +1,10 @@
 export const ServicesJSON = [
-	{ title: "asdasd", subTitle: "jason" },
-	{ title: "asdasd", subTitle: "jasonlee" },
-	{ title: "asdasd", subTitle: "jasonlee" },
-	{ title: "asdasd", subTitle: "jasonlee" },
-	{ title: "asdasd", subTitle: "jasonlee" },
-	{ title: "asdasd", subTitle: "jasonlee" },
-	{ title: "asdasd", subTitle: "jasonlee" },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
+	{ title: "asdasd", subTitle: "jason", image: `<img style="width:6rem" src="/colors-pallete.svg" />` },
 ];
 
 export const PortfolioJSON = [
@@ -91,7 +90,8 @@ export const NewsMainJSON = {
 export const TestimonialMainJSON = {
 	title: "Testimonial",
 	subtitle: "yoyoyoyo klasdjalksd aklsdjaklsdj aklsjd lakdj als",
-	image: `<img class="mx-auto" style="width:2.5rem" src="/customer-testimonial.svg" />`,
+	image: `<i style="font-size:2.5rem;color:#cacaca" class="fa fa-comment" aria-hidden="true"></i>
+    `,
 };
 
 export const ContactMainJSON = {
