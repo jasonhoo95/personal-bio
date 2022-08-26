@@ -64,7 +64,7 @@ export default function PortfolioComponent() {
 			<div className="flex mt-4 pt-2 container-filter justify-center flex-wrap">
 				{filter.map((o, key) => {
 					return (
-						<li>
+						<li key={key}>
 							<a
 								onClick={(e) => {
 									const target = e.target as Element;
@@ -80,7 +80,7 @@ export default function PortfolioComponent() {
 			<div className="flex pt-2 mt-4 flex-wrap isotope-main">
 				{data.map((o, key) => {
 					return (
-						<div style={{ padding: "0px 3px" }} className={`md:w-1/3 element-item ${o.type} mt-2 relative overflow-hidden`}>
+						<div key={key} style={{ padding: "0px 3px" }} className={`md:w-1/3 element-item ${o.type} mt-2 relative overflow-hidden`}>
 							<a className="link-img" href="/img-1.jpeg">
 								<div>
 									<img src={o.image} />

@@ -7,7 +7,7 @@ export default function ServicesComponent() {
 		<div className="flex flex-wrap">
 			{data.map((o, key) => {
 				return (
-					<div style={{ padding: "0px 15px" }} className="md:w-1/3 w-full">
+					<div key={key} style={{ padding: "0px 15px" }} className="md:w-1/3 w-full">
 						<div className="services-flip-box relative mt-6 pt-2">
 							<div className="front p-12">
 								<h5 className="mb-3">{o.title}</h5>
