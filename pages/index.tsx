@@ -32,7 +32,7 @@ export default function Home() {
 
 					<div className="mt-4 pt-2">
 						<a href="#" className="btn btn-outline btn-round">
-							Download CV <i className="mdi mdi-download ml-2"></i>
+							Download CV <i className="fa fa-download" aria-hidden="true"></i>
 						</a>
 					</div>
 				</div>

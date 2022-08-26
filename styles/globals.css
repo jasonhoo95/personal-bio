@@ -441,6 +441,10 @@ small {
 	border: 1px solid #ff9800;
 }
 
+.text-custom {
+	color: #ff9800;
+}
+
 .btn-submit:hover {
 	background-color: transparent;
 	color: #ff9800;

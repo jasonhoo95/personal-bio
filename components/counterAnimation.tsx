@@ -45,7 +45,7 @@ export default function CounterAnimation() {
 						<h1 className="counter-value mb-3 text-white font-bold" data-count={o.number}>
 							0
 						</h1>
-						<h6 className="counter-name text-white">{o.title}</h6>
+						<div dangerouslySetInnerHTML={{ __html: o.title }}></div>
 					</div>
 				);
 			})}
