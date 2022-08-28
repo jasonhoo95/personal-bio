@@ -17,8 +17,9 @@ export const PortfolioJSON = [
 //Portfolio isotop filter JSON edit data
 
 export const PortfolioFilterJSON = [
-	{ name: "Photography", type: "photo" },
-	{ name: "Branding", type: "brand" },
+	{ name: "All", type: "*" },
+	{ name: "Photography", type: ".photo" },
+	{ name: "Branding", type: ".brand" },
 ];
 //Blog News JSON edit data
 

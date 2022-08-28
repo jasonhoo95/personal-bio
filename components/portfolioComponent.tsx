@@ -56,7 +56,7 @@ export default function PortfolioComponent() {
 		}
 		target.classList.add("active");
 		state.iso.arrange({
-			filter: "." + type,
+			filter: type,
 		});
 		// setFilter(type);
 	};
